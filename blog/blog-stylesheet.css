@@ -1,0 +1,43 @@
+header {
+  font-family: Helvetica;
+  font-weight:bold;
+  color:#121214;
+  font-size: 2em;
+  margin-left: 75px;
+  margin-top: 75px
+
+}
+
+a {
+  font-family: Georgia;
+  text-decoration: none;
+  color:#121214;
+  margin-left: 50px;
+  line-height: 2em;
+  display: inline-block;
+}
+
+a:hover {
+  color:#FF3399
+;
+}
+
+ul {
+  list-style: none;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+#content {
+
+  height:300px;
+  width:500px;
+  display: inline-block;
+  float:right;
+  margin-right: 150px
+}
+
+nav {
+  width: 500px;
+  display: inline-block;
+}
