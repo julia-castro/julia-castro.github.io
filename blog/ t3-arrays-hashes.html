@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title>Julia Castro</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>ARRAYS VS. HASHES</h1>
+  <h2>what to use</h2>
+  <h4>3.15.15</h4>
+
+  <section>
+   <h5>ARRAYS</h5>
+   <p>Array: basically a list in your computer. It is a collection that stores a list of values in a single variable. Arrays can consist of anything: numbers, strings, other arrays, etc...</p>
+   <p>
+   colors = ["pink", "red","blue"] </br>
+   numbers = [5, 6, 7]</br>
+   etc = [24, "new york", [true, false]]
+ </p>
+ <p>All the examples above are arrays. Each slot in the list acts like a variable and points to a particular object. </p>
+ <p>Each slot also has an index number. The first element is index 0, not 1. So in the array colors in the example above, index 0 points to pink, index 1 points to red and index 2 points to blue. Easy enough to understand, if not to remember</p>
+
+ <p>Because the slots act as variables, you can assign to them as well.</br>
+  </br>
+  countries = [ ]</br>
+  countries[4] = "USA"</br>
+  countries[1] = "Canada"</br>
+  countries[2] = "Mexico"</br>
+  countries[1] = "Italy"</br>
+</br>
+  puts countries</br>
+  </br>
+  Italy</br>
+  Mexico</br>
+  USA</br>
+</br>
+  As you can see, you don't have to assign the slots in order, and you can even re-assign. If you leave a slot empty, it is filled with nil by default.
+ </p>
+
+ <h5>HASHES</h5>
+ <p>Hashes are very similar to arrays in that they have slots that point to various objects. The biggest difference is that arrays are indexed with ordered numbers, and hashes can be indexed with ANY OBJECT! not just numbers!</p>
+
+<h5>LET'S COMPARE THE TWO:</h5>
+<p>
+Array:</br>
+colleges = ["UC Santa Cruz", "Fordham", "Kings College London"]</br>
+</br>
+Hash:</br>
+colleges = {</br>
+  "California" => "UC Santa Cruz", </br>
+  "New York" => "Fordham", </br>
+  "England" => "Kings College London"</br>
+}
+</p>
+<p>So in the Array, each element can only be accessed via an ordered, numbered slot. But in the Hash, "UC Santa Cruz" can be assigned to ANY variable, not just a number. In other words, in Arrays, the keys in the key-value pairs are limited to integers. In Hashes, the keys in the key-value pairs are NOT limited to integers. On one hand, Hashes are more descriptive and specific because you can assign key-value pairs that are actually informative. But on the other hand, because Hashes aren't ordered data, it could be difficult to get data out the Hash in any ordered way.</p>
+
+
+
+
+
+
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
