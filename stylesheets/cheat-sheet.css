@@ -1,0 +1,19 @@
+header {
+    background-color: #FF0D85;
+    font-size: 48px;
+    font-variant: small-caps;
+    padding: 2%;
+}
+
+.container {
+    background-color: #E80CE7;
+    padding: 5%;
+}
+
+h2 {
+    color: #390DFF;
+}
+
+* {
+  font-family: 'Open Sans';
+}
